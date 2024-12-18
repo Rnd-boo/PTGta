@@ -17,7 +17,7 @@
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
         <div class="relative">
-          <button type="button" @click="isOpen = !isOpen" class="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900" aria-expanded="false">
+          <button type="button" @click="isOpen = !isOpen" class="hover:underline decoration-red-500 decoration-2 underline-offset-35 hover:transition-all flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900" aria-expanded="false">
             Product
             <svg class="size-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
               <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
@@ -109,12 +109,12 @@
           </div>
         </div>
   
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Services</a>
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Careers</a>
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Company</a>
+        <a href="#" class="hover:underline hover:scale-110 decoration-red-500 decoration-2 underline-offset-32 hover:transition-all text-sm/6 font-semibold text-gray-900">Services</a>
+        <a href="#" class="hover:underline hover:scale-110 decoration-red-500 decoration-2 underline-offset-32 hover:transition-all text-sm/6 font-semibold text-gray-900">Careers</a>
+        <a href="#" class="hover:underline hover:scale-110 decoration-red-500 decoration-2 underline-offset-32 hover:transition-all text-sm/6 font-semibold text-gray-900">Company</a>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Contact Us <span aria-hidden="true">&rarr;</span></a>
+        <a href="#" class="text-sm/6 font-semibold text-gray-900 hover:underline">Contact Us <span aria-hidden="true">&rarr;</span></a>
       </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->

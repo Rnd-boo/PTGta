@@ -16,6 +16,10 @@ export default {
             fontFamily: {
                 sans: ["InterVariable", ...defaultTheme.fontFamily.sans],
             },
+            textUnderlineOffset: {
+                32: "31px",
+                35: "35px",
+            },
         },
     },
     plugins: [],
