@@ -20,6 +20,9 @@ export default {
                 32: "31px",
                 35: "35px",
             },
+            backgroundImage: {
+                "hero-pattern": "url('/img/homepage.png')",
+            },
         },
     },
     plugins: [],
