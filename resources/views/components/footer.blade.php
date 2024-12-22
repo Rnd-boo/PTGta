@@ -7,12 +7,12 @@
                     <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Gema Trimimtra Andalan</span>
                 </a>
             </div>
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
-                <div class="col-span-2">
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 lg:grid-cols-4">
+                <div class="md:col-span-2 col-auto">
                     <h2 class="mb-6 text-sm font-semibold text-white uppercase ">Office</h2>
                     <ul class="text-white">
                         <li class="mb-4">
-                            <a href="https://www.google.com/maps/place/PT.+Gema+Trimitra+Andalan/@3.6562194,98.6613354,17z/data=!3m1!4b1!4m6!3m5!1s0x303133004785627f:0x85f275325399b872!8m2!3d3.6562141!4d98.6639103!16s%2Fg%2F11vyc0fx1j?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="hover:underline">Jl. KL. Yos Sudarso Km.8,8 <br>RUKO NO.3 Mabar, Medan Deli</a>
+                            <a href="https://www.google.com/maps/place/PT.+Gema+Trimitra+Andalan/@3.6562194,98.6613354,17z/data=!3m1!4b1!4m6!3m5!1s0x303133004785627f:0x85f275325399b872!8m2!3d3.6562141!4d98.6639103!16s%2Fg%2F11vyc0fx1j?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="hover:underline">Jl. KL. Yos Sudarso Km.8,8 <br>Ruko NO.3 Mabar, Medan Deli</a>
                         </li>
                     </ul>
                 </div>
