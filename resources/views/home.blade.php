@@ -18,10 +18,10 @@
                 </div>    
         </div>
     </div>
-    <div class="w-full h-128 bg-black"></div>
     {{-- <div class="w-4/5 mx-auto mt-6 h-40 view()">
         <h1 class="text-red-900 text-5xl text-center font-semibold lihat pt-10"><i>FUTURE PLANS</i></h1>
         <p class="text-black text-center text-xl lihat py-10">Menjadi perusahaan kontraktor terkemuka yang dikenal akan kualitas, inovasi, dan keberlanjutan proyek.</p>
     </div> --}}
+   <x-footer></x-footer>
 </body>
 </html>
