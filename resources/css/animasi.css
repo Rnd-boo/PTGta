@@ -8,8 +8,34 @@
         transform: translateX(0px);
     }
 }
-.lihat {
+@keyframes appear-top {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes appear-right {
+    from {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-100px);
+    }
+}
+.appear-top {
+    animation: appear-top linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+.appear-left {
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+    animation-range: entry 0% cover 40%;
 }

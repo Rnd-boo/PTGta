@@ -58,6 +58,10 @@ export default {
             },
             height: {
                 128: "45rem",
+                100: "25rem",
+            },
+            colors: {
+                california: "#fa9d05",
             },
         },
     },
