@@ -13,6 +13,15 @@ export default {
     ],
     theme: {
         extend: {
+            animation: {
+                "loop-scroll": "loop-scroll 50s linear infinite",
+            },
+            keyframes: {
+                "loop-scroll": {
+                    from: { transform: " translateX(0)" },
+                    to: { transform: "translateX(-100%)" },
+                },
+            },
             fontFamily: {
                 body: [
                     "Inter",
@@ -31,23 +40,7 @@ export default {
                     "Segoe UI Symbol",
                     "Noto Color Emoji",
                 ],
-                sans: [
-                    "Inter",
-                    "ui-sans-serif",
-                    "system-ui",
-                    "-apple-system",
-                    "system-ui",
-                    "Segoe UI",
-                    "Roboto",
-                    "Helvetica Neue",
-                    "Arial",
-                    "Noto Sans",
-                    "sans-serif",
-                    "Apple Color Emoji",
-                    "Segoe UI Emoji",
-                    "Segoe UI Symbol",
-                    "Noto Color Emoji",
-                ],
+                noto: ["Noto Sans"],
             },
             textUnderlineOffset: {
                 32: "31px",

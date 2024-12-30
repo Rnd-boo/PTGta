@@ -42,7 +42,7 @@
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">PT.Gema Trimitra Andalan™</a>. All Rights Reserved. | Design by <a href="https://www.instagram.com/raand_/" class="hover:text-cyan-600">rTjia</a>
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">PT.Gema Trimitra Andalan™</a>. All Rights Reserved. | Website created by <a href="https://www.instagram.com/raand_/" class="hover:text-cyan-600">rTjia</a>
             </span>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
