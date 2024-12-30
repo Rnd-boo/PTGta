@@ -42,7 +42,7 @@
                   </svg>
                 </div>
                 <div class="flex-auto">
-                  <a href="#" class="block font-semibold text-gray-900">
+                  <a href="/conveying-system" class="block font-semibold text-gray-900">
                     Conveying System
                     <span class="absolute inset-0"></span>
                   </a>
@@ -153,7 +153,7 @@
                 <!-- 'Product' sub-menu, show/hide based on menu state. -->
                 <div x-show="isOn"
                  class="mt-2 space-y-2" id="disclosure-1">
-                  <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Conveying System</a>
+                  <a href="/conveying-system" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Conveying System</a>
                   <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Palletizing System</a>
                   <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Case Packer</a>
                   <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Application of Various Robot</a>
