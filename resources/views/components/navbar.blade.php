@@ -113,13 +113,12 @@
             </div>
           </div>
         </div>
-  
-        <a href="#" class="hover:underline hover:scale-110 decoration-red-500 decoration-2 underline-offset-32 hover:transition-all text-sm/6 font-semibold text-gray-900">Services</a>
+        <a href="/services" class="hover:underline hover:scale-110 decoration-red-500 decoration-2 underline-offset-32 hover:transition-all text-sm/6 font-semibold text-gray-900">Services</a>
         <a href="#" class="hover:underline hover:scale-110 decoration-red-500 decoration-2 underline-offset-32 hover:transition-all text-sm/6 font-semibold text-gray-900">Careers</a>
         <a href="#" class="hover:underline hover:scale-110 decoration-red-500 decoration-2 underline-offset-32 hover:transition-all text-sm/6 font-semibold text-gray-900">Company</a>
-      </div>
-      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="#" class="text-sm/6 font-semibold text-gray-900 hover:underline">Contact Us <span aria-hidden="true">&rarr;</span></a>
+        <div class="hidden lg:flex">
+          <a href="#" class="text-sm/6 font-semibold text-white w-24 h-6 bg-red-700 flex items-center justify-center rounded-full hover:bg-red-800">Contact Us <span aria-hidden="true">&rarr;</span></a>
+        </div>
       </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
@@ -154,7 +153,7 @@
                 <div x-show="isOn"
                  class="mt-2 space-y-2" id="disclosure-1">
                   <a href="/conveying-system" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Conveying System</a>
-                  <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Palletizing System</a>
+                  <a href="/services" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Palletizing System</a>
                   <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Case Packer</a>
                   <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Application of Various Robot</a>
                   <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">Customizd Automated Warehouse</a>

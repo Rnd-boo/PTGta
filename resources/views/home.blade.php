@@ -23,7 +23,7 @@
         <p class="text-white text-center md:text-xl text-sm sm:mx-auto mx-10 font-noto appear-left mt-4">"Menjadi perusahaan kontraktor terkemuka yang dikenal akan <span class="font-semibold">kualitas</span>, <span class="font-semibold">inovasi</span>, dan <span class="font-semibold">keberlanjutan proyek."</span></p>
     </div>
     <div class="mx-auto max-w-screen-xl my-10">
-        <h1 class="text-4xl font-medium text-red-900 appear-top p-2">Experience Work</h1>
+        <h1 class="text-2xl lg:text-4xl font-medium text-red-900 appear-top p-2">Experience Work</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 appear-top gap-8 gap-y-12 my-6">
             <div class="col-span-1 lg:col-span-2 shadow-xl p-2 pb-5">
                 <img src="img/filter-press.jpg" class="w-full h-96 object-cover rounded-sm shadow-md">
