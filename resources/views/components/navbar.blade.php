@@ -1,7 +1,7 @@
 <header  x-data="{ isOpen: false }" class="bg-white border-b-2 sticky top-0 z-50 scroll-m-0">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-2" aria-label="Global">
       <div class="flex lg:flex-1">
-        <a href="#" class="-m-1.5 p-1.5 flex">
+        <a href="/" class="-m-1.5 p-1.5 flex">
           <span class="sr-only">PT GEMA TRIMITRA ANDAlAN</span>
           <img class="h-8 w-auto" src="img/logo.png" alt="">
           <h1 class="p-1 ml-1 block font-semibold text-gray-900 md:block xl:text-base:block">PT GEMA TRIMITRA ANDALAN</h1>
@@ -128,7 +128,7 @@
       <div class="fixed inset-0 z-10"></div>
       <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
-          <a href="#" class="-m-1.5 p-1.5">
+          <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">PT GEMA TRIMITRA ANDAlAN</span>
             <img class="h-8 w-auto" src="img/logo.png" alt="">
           </a>

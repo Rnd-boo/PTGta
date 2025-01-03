@@ -2,7 +2,7 @@
     <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
-                <a href="#" class="flex items-center">
+                <a href="/" class="flex items-center">
                     <img src="img/logo.png" class="mr-3 h-8" alt="PTGTA Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Gema Trimimtra Andalan</span>
                 </a>
