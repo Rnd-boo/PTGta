@@ -133,7 +133,7 @@
           </ul>
         </div>
         <div>
-        <p class="text-blue-400 mx-auto mt-10 my-5"><a href="/" class="hover:underline">&lt;Back</a></p>
+        <p class="text-black mx-auto mt-10 my-5"><a href="/" class="hover:underline hover:text-gray-500">&lt;Back</a></p>
       </div>
       </div>
     </div>

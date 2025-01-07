@@ -13,3 +13,7 @@ Route::get('/conveying-system', function () {
 Route::get('/services', function () {
     return view('services');
 });
+
+Route::get('/case-packer', function () {
+    return view('case');
+});
