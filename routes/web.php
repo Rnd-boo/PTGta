@@ -10,8 +10,8 @@ Route::get('/conveying-system', function () {
     return view('convey');
 });
 
-Route::get('/services', function () {
-    return view('services');
+Route::get('/expertise', function () {
+    return view('expertise');
 });
 
 Route::get('/case-packer', function () {
