@@ -10,7 +10,9 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>PT.Gema Trimitra Andalan</title>
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
     <x-navbar></x-navbar>
-    
+    {{ $slot }}
+    <x-footer></x-footer>
 </body>
+</html>

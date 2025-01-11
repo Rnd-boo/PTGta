@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite('resources/css/app.css')
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel="shortcut icon" href="img/logo.png" />
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <title>PT.Gema Trimitra Andalan</title>
-</head>
-<body>
-    <x-navbar></x-navbar>
+<x-layout>
     <section class="bg-white">
         <div>
           <div class="relative h-[36rem] w-full bg-[url('/public/img/Our-expertise.jpg')] bg-cover bg-no-repeat bg-center">
@@ -36,9 +23,7 @@
             </div>
         </div>
         <div class="my-20">
-            <h1 class="text-center text-base lg:text-lg">Don't Hestitate to <a href="" class="focus:ring-primary-300 inline-flex items-center rounded-lg bg-orange-600 px-3 py-1 text-white hover:bg-orange-800 focus:ring-4">Contact Us</a> for further information</h1>
+            <h1 class="text-center text-base lg:text-lg">Don't Hestitate to <a href="/contact" class="focus:ring-primary-300 inline-flex items-center rounded-lg bg-orange-600 px-3 py-1 text-white hover:bg-orange-800 focus:ring-4">Contact Us</a> for further information</h1>
           </div>
       </section>
-      <x-footer></x-footer>
-</body>
-</html>
+    </x-layout>
