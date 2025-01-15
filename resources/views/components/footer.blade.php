@@ -17,13 +17,13 @@
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-white uppercase ">Find Us</h2>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase ">About Us</h2>
                     <ul class="text-white">
                         <li class="mb-4">
-                            <a href="" target="_blank" class="hover:underline ">Office</a>
+                            <a href="/about" target="" class="hover:underline ">Company</a>
                         </li>
                         <li>
-                            <a href="" class="hover:underline">Contact Us</a>
+                            <a href="contact" class="hover:underline">Contact Us</a>
                         </li>
                     </ul>
                 </div>

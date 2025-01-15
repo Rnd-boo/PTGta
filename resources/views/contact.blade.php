@@ -19,10 +19,14 @@
    </script>
     <title>PT.Gema Trimitra Andalan</title>
 </head>
-<body>
+<body  class="flex flex-col min-h-screen">
     <x-navbar></x-navbar>
-<div class="mb-10"></div>
-<form id="contact-form" class="mx-auto max-w-md" method="" autocomplete="off">
+    <div class="mx-auto my-10 xl:max-w-screen-xl 2xl:max-w-screen-2xl grid grid-cols-1 lg:grid-cols-2 px-4">
+    <div class="lg:mr-28 md:mx-auto">
+      <h1 class="text-5xl font-semibold my-10 mt-5 md:mt-20">Connect with Us</h1>
+      <p class="">We're on <a href="" class="hover:text-gray-400 cursor-pointer underline text-gray-700">WhatsApp</a> if you don't like forms. <br>And acceptin emails at <a href="" class="hover:text-gray-400 cursor-pointer underline text-gray-700">gematrimitraandalan@my.com</a></p>
+    </div>
+  <form id="contact-form" class="mx-auto max-w-md mt-10" method="" autocomplete="off">
   <div class="group relative z-0 mb-5 w-full">
     <input type="email" name="email" id="floating_email" class="peer block w-full appearance-none border-0 border-b-2 border-gray-300 bg-transparent px-0 py-2.5 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 " placeholder=" " required />
     <label for="floating_email" class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4  peer-focus:dark:text-blue-500">Email address</label>
@@ -54,11 +58,11 @@
   <textarea id="message" rows="4" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500" placeholder="Write your thoughts here..."></textarea>
   <div class="my-4 w-full">
     <input type="checkbox" name="agreement" id="agreement" required />
-    <label for="agreement" class="text-center text-xs">I agree that the information I provide and my browsing activity may be used to fulfill my request and improve my experience. Read our privacy policy.</label>
+    <label for="agreement" class="text-center  text-xs">I agree that the information I provide and my browsing activity may be used to fulfill my request and improve my experience. Read our privacy policy.</label>
   </div>
   <button type="submit" class="w-full rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-auto dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
 </form>
-
+</div>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="index.js"></script>
 
