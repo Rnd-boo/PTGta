@@ -54,6 +54,8 @@ export default {
                 100: "25rem",
             },
             colors: {
+                teal: "#E17564",
+                nature: "#5CB338",
                 california: "#fa9d05",
                 primary: {
                     50: "#fff7ed",

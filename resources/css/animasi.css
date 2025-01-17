@@ -31,11 +31,11 @@
 .appear-top {
     animation: appear-top linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 20%;
+    animation-range: entry 0% cover 40%;
 }
 
 .appear-left {
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 20%;
 }

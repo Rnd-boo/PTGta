@@ -13,7 +13,7 @@
 <body>
     <x-navbar></x-navbar>
     <div>
-        <div class="w-full h-svh bg-[url('/public/img/hero.png')] bg-no-repeat bg-cover bg-center lg:bg-center">
+        <div class="w-full h-svh bg-[url('/public/img/home-page.jpg')] bg-no-repeat bg-cover bg-center lg:bg-center">
                 <h1 class="lg:text-7xl text-4xl font-black text-white absolute bottom-0 px-24 py-14">Providing High Value<br>Construction Projects</h1>
                 </div>    
         </div>
@@ -25,7 +25,7 @@
     </div>
 
     {{-- Expretise --}}
-    <section class="bg-white mt-10">
+    <section class="bg-white mt-8">
         <div class="mx-auto max-w-screen-xl items-center gap-8 px-4 py-8 sm:py-16 md:grid md:grid-cols-2 lg:px-6 xl:gap-16">
           <img class="w-full dark:hidden rounded-sm" src="img/home-section.jpg" alt="dashboard image" />
           <img class="hidden w-full dark:block rounded-sm" src="img/home-section.jpg" alt="dashboard image" />
@@ -40,8 +40,45 @@
         </div>
       </section>
       {{-- Expretise --}}
+
+      <div class="container mx-auto mb-4 py-10 appear-top">
+        <h2 class="mb-6 text-center text-2xl font-bold">Our Experience</h2>
+        <h2 class="mb-2 text-xl font-bold px-2 text-red-700"><span class="text-black text-base font-medium">with</span> PT Energi Oleo Persada</h2>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card 1 -->
+          <div class="transform rounded-lg bg-white p-6 shadow-lg transition-transform hover:scale-105 border">
+            <h3 class="text-xl font-semibold">Installation</h3>
+            <p class="mt-2 text-gray-600">Installing cooling tower pipes, Installing enzymatic line pipes</p>
+            <div class="mt-4">
+              <span class="inline-block rounded-full bg-california px-2 py-1 text-xs font-semibold text-white">Build</span>
+              <span class="inline-block rounded-full bg-nature px-2 py-1 text-xs font-semibold text-white">Repair</span>
+            </div>
+          </div>
       
-    {{-- <div class="mx-auto max-w-screen-xl my-10">
+          <!-- Card 2 -->
+          <div class="transform rounded-lg bg-white p-6 shadow-lg transition-transform hover:scale-105 border">
+            <h3 class="text-xl font-semibold">Repair</h3>
+            <p class="mt-2 text-gray-600">Oil Thermal Heater Repair & Boiler Pipe Replacement 10 Ton Cap</p>
+            <div class="mt-4">
+              <span class="inline-block rounded-full bg-nature px-2 py-1 text-xs font-semibold text-white">Overhaul</span>
+            </div>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="transform rounded-lg bg-white p-6 shadow-lg transition-transform hover:scale-105 border">
+            <h3 class="text-xl font-semibold">Renovation</h3>
+            <p class="mt-2 text-gray-600">Lab Modification , Land Clearing and Road Compaction , Ceiling and Gutter</p>
+            <div class="mt-4">
+              <span class="inline-block rounded-full bg-california px-2 py-1 text-xs font-semibold text-white">Renovation</span>
+              <span class="inline-block rounded-full bg-nature px-2 py-1 text-xs font-semibold text-white">Restoration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+{{--       
+    <div class="mx-auto max-w-screen-xl my-10">
         <h1 class="text-2xl lg:text-4xl font-medium text-red-900 appear-top p-2">Experience Work</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 appear-top gap-8 gap-y-12 my-6">
             <div class="col-span-1 lg:col-span-2 shadow-xl p-2 pb-5">
@@ -84,39 +121,6 @@
         </div>
     </div> --}}
 
-    {{-- Our Client section --}}
-    {{-- <h1 class="mx-auto mt-24 mb-4 text-center text-2xl lg:text-5xl font-semibold">Our Client</h1> --}}
-    <div class="mx-auto w-full pb-5 my-4">
-        <div class="overflow-hidden flex group">
-          <ul class="flex text-black p-4 whitespace-nowrap text-md lg:text-lg font-medium animate-loop-scroll space-x-10 group-hover:paused">
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-red-700">PT. ENERGI OLEO PERSADA</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-red-500">PT. SOCIMAS</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-red-600">PT. EXPRAVET NASUBA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-orange-500">PT. INTIMAS SAWIT SEJAHTERA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-green-700">PT. MUSIM MAS.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-blue-400">PT. TRIMITRA PROTEIN INDONESIA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-red-600">PT. MABAR FEED INDONESIA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-green-600">PT. SAWIT RUPAT SEJAHTERA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105">PT. SERDANG JAYA PERDANA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-red-600">PT. SURYA TATA MANDIRI.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-blue-600">PT. ENVI TECH</li>
-          </ul>
-          <ul class="flex text-black p-4 whitespace-nowrap text-lg font-medium animate-loop-scroll space-x-10 group-hover:paused" aria-hidden="true">
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-red-700">PT. ENERGI OLEO PERSADA</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-red-500">PT. SOCIMAS</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-red-600">PT. EXPRAVET NASUBA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-orange-500">PT. INTIMAS SAWIT SEJAHTERA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-green-700">PT. MUSIM MAS.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-blue-400">PT. TRIMITRA PROTEIN INDONESIA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-red-600">PT. MABAR FEED INDONESIA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-green-600">PT. SAWIT RUPAT SEJAHTERA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105">PT. SERDANG JAYA PERDANA.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-red-600">PT. SURYA TATA MANDIRI.</li>
-            <li class="cursor-pointer transition-all h-2 hover:scale-105 hover:text-blue-600">PT. ENVI TECH</li>
-          </ul>
-        </div>
-    </div>
-    {{-- End Our Client section --}}
    <x-footer></x-footer>
 </body>
 </html>
