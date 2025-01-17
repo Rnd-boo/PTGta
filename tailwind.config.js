@@ -56,6 +56,8 @@ export default {
             colors: {
                 teal: "#E17564",
                 nature: "#5CB338",
+                hijau: "#2B3467",
+                cream: "#FEFDED",
                 california: "#fa9d05",
                 primary: {
                     50: "#fff7ed",
