@@ -1,5 +1,5 @@
 <x-layout>
-    <div  class="bg-cream">
+    <div  class="bg-putih">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex justify-evenly">
           <div class="max-w-3xl pt-2">
@@ -71,13 +71,13 @@
               <div class="flex">
                 <div>
                   <div class="aspect-square w-36 rounded-lg border-4 border-orange-600">
-                    <img src="/img/pouch.png" alt="Pet Bottle" class="mt-2">
+                    <img src="/img/pouch.png" alt="pouch" class="mt-2">
                   </div>
                   <h2 class="text-sm text-center text-hijau">POUCH FOOD</h2>
                 </div>
                 <div>
                   <div class="mx-2 aspect-square w-36 rounded-lg border-4 border-orange-600">
-                    <img src="/img/household.png" alt="Pet Bottle" class="">
+                    <img src="/img/household.png" alt="House Hold" class="">
                   </div>
                   <h2 class="text-sm text-center text-hijau">HOUSEHOLD CHEMICALS</h2>
                 </div>

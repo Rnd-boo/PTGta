@@ -58,6 +58,7 @@ export default {
                 nature: "#5CB338",
                 hijau: "#2B3467",
                 cream: "#FEFDED",
+                putih: "#F5F7F8",
                 california: "#fa9d05",
                 primary: {
                     50: "#fff7ed",
