@@ -5,7 +5,7 @@
             <div class="mt-4 mx-8">
               <img src="img/casepacker.jpg" alt="" class="max-w-xl rounded-b-3xl" />
               <h1 class="p-2 py-4 text-5xl font-bold text-red-900">CASE PACKER</h1>
-              <div class="w-96 rounded-t-xl bg-california p-2 px-4 text-lg text-black">
+              <div class="w-96 rounded-r-xl bg-california p-2 px-4 text-lg text-black">
                 <h2 class="my-2">PRODUCT DESCRIPTION</h2>
                 <p>The packing system is an automated and efficient packaging solution that can meet various packaging needs, quickly and accurately identify and package products, and improve production efficiency and accuracy.</p>
               </div>

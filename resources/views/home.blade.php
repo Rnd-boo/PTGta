@@ -47,26 +47,27 @@
         <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           <!-- Card 1 -->
           <div class="transform rounded-lg bg-white p-6 shadow-lg transition-transform hover:scale-105 border">
-            <h3 class="text-xl font-semibold">Installation</h3>
+            <img src="img/experience1.png" alt="Installation" class="w-full h-32 object-cover rounded-t-lg">
             <p class="mt-2 text-gray-600">Installing cooling tower pipes, Installing enzymatic line pipes</p>
             <div class="mt-4">
               <span class="inline-block rounded-full bg-california px-2 py-1 text-xs font-semibold text-white">Build</span>
-              <span class="inline-block rounded-full bg-nature px-2 py-1 text-xs font-semibold text-white">Repair</span>
+              <span class="inline-block rounded-full bg-nature px-2 py-1 text-xs font-semibold text-white">Installation</span>
             </div>
           </div>
       
           <!-- Card 2 -->
           <div class="transform rounded-lg bg-white p-6 shadow-lg transition-transform hover:scale-105 border">
-            <h3 class="text-xl font-semibold">Repair</h3>
+            <img src="img/experience.png" alt="Repair" class="w-full h-32 object-cover rounded-t-lg">
             <p class="mt-2 text-gray-600">Oil Thermal Heater Repair & Boiler Pipe Replacement 10 Ton Cap</p>
             <div class="mt-4">
+              <span class="inline-block rounded-full bg-california px-2 py-1 text-xs font-semibold text-white">Repair</span>
               <span class="inline-block rounded-full bg-nature px-2 py-1 text-xs font-semibold text-white">Overhaul</span>
             </div>
           </div>
       
           <!-- Card 3 -->
           <div class="transform rounded-lg bg-white p-6 shadow-lg transition-transform hover:scale-105 border">
-            <h3 class="text-xl font-semibold">Renovation</h3>
+            <img src="img/lab-modif.jpg" alt="Renovation" class="w-full h-36 object-cover rounded-t-lg">
             <p class="mt-2 text-gray-600">Lab Modification , Land Clearing and Road Compaction , Ceiling and Gutter</p>
             <div class="mt-4">
               <span class="inline-block rounded-full bg-california px-2 py-1 text-xs font-semibold text-white">Renovation</span>
