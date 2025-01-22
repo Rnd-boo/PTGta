@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="{{ asset('https://rsms.me/inter/inter.css') }}">
     <link rel="shortcut icon" href="img/logo.png" />
-    <script src="public/index.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="{{ asset('public/index.js') }}"></script>
+    <script defer src="{{ asset('https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js') }}"></script>
     <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        src="{{ asset('https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js') }}">
    </script>
   <script type="text/javascript">
    (function(){
@@ -63,8 +63,8 @@
   <button type="submit" class="w-full rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-auto dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
 </form>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="index.js"></script>
+<script src="{{ asset('https://cdn.jsdelivr.net/npm/sweetalert2@11') }}"></script>
+<script src="{{ asset('index.js') }}"></script>
 
     <x-footer></x-footer>
 </body>
