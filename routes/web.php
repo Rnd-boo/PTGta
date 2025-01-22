@@ -10,7 +10,7 @@ Route::get('/conveying-system', function () {
     return view('convey');
 });
 
-Route::get('/expertise', function () {
+Route::get('/expertise', function () {  
     return view('expertise');
 });
 
