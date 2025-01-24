@@ -6,7 +6,7 @@
           </div>
         </div>
         <div class="mx-auto mt-10 xl:max-w-screen-xl 2xl:max-w-screen-2xl  grid grid-cols-1 lg:grid-cols-2 px-4">
-            <img src="img/filter-press.jpg" alt="Build-Filter-press" class="h-100 w-full object-cover object-center" />
+            <img src="public/img/filter-press.jpg" alt="Build-Filter-press" class="h-100 w-full object-cover object-center" />
             <div class="content-center bg-red-900 p-8">
               <h1 class="mt-8 lg:mt-12 text-3xl lg:text-6xl text-white">Build - Installation</h1>
               <p class="my-8 lg:mt-12 text-white"><a href="/404" class="border-2 border-orange-400 w-max rounded-full px-4 py-1 text-sm lg:text-lg hover:bg-orange-400 hover:text-black">Learn More</a></p>
